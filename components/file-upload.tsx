@@ -22,12 +22,9 @@ export const FileUpload  = ({
         return (
             <div className="relative h-20 w-20">
                 <Image
-                unoptimized // for image caching, else error
-            
+                fill
                 src={value}
                 alt="Upload"
-                width={50}
-                height={50}
                className="rounded-full"
               />
               <button
